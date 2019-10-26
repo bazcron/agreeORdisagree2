@@ -30,8 +30,8 @@ app.get('/users/:id', users.findUser);
 app.get('/statements', statements.findAll);
 app.get('/statements/:id', statements.findOne);
 app.post('/statements',statements.addStatement);
-app.put('/statements/id/agree',statements.agreedWithStatement);
-//app.put('/disagree',statements.disagreeWithStatement);
+app.put('/statements/:id/agree',statements.agreedWithStatement);
+app.put('/statements/:id/disagree',statements.disagreeWithStatement);
 app.delete('/statements/:id', statements.deleteStatement);
 
 app.post('/users', users.addUser);
