@@ -1,5 +1,4 @@
 # agreeORdisagree
-Initial upload of project
 
 Name of webApp: Agree or Disagree
 
@@ -34,3 +33,7 @@ Delete a statement by id
 Get all users, returns all the users
 Post (add) a user with a unigue id
 Delete a user based on the id
+
+The data is currently persistent locally in a mongodb.
+
+I created a github repository and uploaded the initial project. i continued to push updates to github each time i added new code or updated code.
