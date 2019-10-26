@@ -1,3 +1,414 @@
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T023843.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000001
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T023834.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T023815.200.json
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T023809.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Road speedare a waste of time"}
+
+<> 2019-10-26T023738.200.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Road speedare a waste of time"}
+
+<> 2019-10-26T023701.200.json
+
+###
+
+GET http://localhost:3000/statements/5
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Road speedare a waste of time"}
+
+<> 2019-10-26T023656.200.json
+
+###
+
+DELETE http://localhost:3000/statements/5
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Road speedare a waste of time"}
+
+<> 2019-10-26T023648.200.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Road speedare a waste of time"}
+
+<> 2019-10-26T023629.200.json
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Road speedare a waste of time"}
+
+<> 2019-10-26T023622.200.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T023226.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T023213.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T023104.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T023056.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T022637.200.json
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T022632.200.json
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T022550.200.html
+
+###
+
+GET http://localhost:3000/users/all
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011903.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011605.200.html
+
+###
+
+DELETE http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011450.404.html
+
+###
+
+DELETE http://localhost:3000/users/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011445.404.html
+
+###
+
+DELETE http://localhost:3000/users/100000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011432.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011425.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011420.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011418.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011417.200.json
+
+###
+
+DELETE http://localhost:3000/users/100000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011403.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011321.200.html
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011316.200.json
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-26T011124.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-10-26T011033.200.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-10-26T010826.200.html
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-10-26T010811.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-10-26T010759.200.html
+
+###
+
+GET http://localhost:3000/users/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-10-26T010659.200.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-10-26T010649.200.html
+
+###
+
 GET http://localhost:3000/user
 Accept: */*
 Cache-Control: no-cache
@@ -94,359 +505,6 @@ Cache-Control: no-cache
 Content-Type: application/json
 
 <> 2019-10-26T010005.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125957.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125930.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125929.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125914.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125811.500.json
-
-###
-
-PUT http://localhost:3000/statements/1/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125730.500.html
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125714.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125712-1.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125712.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125704.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125649.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125648.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125633.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125632.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125619.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125611.500.html
-
-###
-
-PUT http://localhost:3000/statements/1/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125506.500.html
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125457.200.json
-
-###
-
-GET http://localhost:3000/statements/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125432.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125354.500.html
-
-###
-
-PUT http://localhost:3000/statements/2/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125345.500.html
-
-###
-
-PUT http://localhost:3000/statements/2/disagree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T125326.404.html
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124955.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124944.404.html
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124701.404.html
-
-###
-
-PUT http://localhost:3000/statements/id/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124656.200.html
-
-###
-
-PUT http://localhost:3000/statements/id/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124539.200.html
-
-###
-
-GET http://localhost:3000/statements/2
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124522.200.json
-
-###
-
-GET http://localhost:3000/statements/1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124457.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124449.404.html
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124447.404.html
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124155.404.html
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124154.404.html
-
-###
-
-PUT http://localhost:3000/statements/2/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124022.404.html
-
-###
-
-PUT http://localhost:3000/statements/1%20/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124017.404.html
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T124009.404.html
-
-###
-
-GET http://localhost:3000/statements/1/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T123533.200.json
-
-###
-
-PUT http://localhost:3000/statements/1/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-10-26T123523.404.html
-
-###
-
-GET http://localhost:3000/statements/1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-26T123341.200.json
 
 ###
 

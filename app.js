@@ -37,6 +37,7 @@ app.delete('/statements/:id', statements.deleteStatement);
 app.post('/users', users.addUser);
 app.get('/users', users.findAllUsers);
 app.delete('/users/:id', users.deleteUser);
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

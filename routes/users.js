@@ -1,31 +1,23 @@
 let users = require('../models/users');
-var express = require('express');
-var router = express.Router();
+let express = require('express');
+let router = express.Router();
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
 
 function getByValue(array, id) {
-  var result = array.filter(function (obj) {
-    return obj.id == id;
-  });
+  let result = array.filter(function (obj) {return obj.id == id;});
   return result ? result[0] : null; // or undefined
-
 }
+
 function getUserById(array, id) {
-  var result = array.filter(function (obj) {
-    return obj.id == id;
-  });
+  let result = array.filter(function (obj) {return obj.id == id;});
   return result ? result[0] : null; // or undefined
 }
 
 router.addUser = (req, res) => {
   res.setHeader('Content-Type', 'application/json');
   //Add a new User
-  var id = Math.floor((Math.random() * 1000000) + 1); //Randomly generate an id
-  var numberOfUsers = users.length;
+  let id = Math.floor((Math.random() * 1000000) + 1); //Randomly generate an id
+  let numberOfUsers = users.length;
 
   users.push({"id" : id, "name": req.body.name, "email": req.body.email, "password": req.body.password, agree:0, disagree:0});
 
@@ -44,10 +36,10 @@ router.findAllUsers = (req, res) => {
 
 router.deleteUser = (req, res) => {
   //Delete the selected user based on its id
-  var user = getByValue(users,req.params.id);
-  var index = users.indexOf(user);
+  let user = getByValue(users,req.params.id);
+  let index = users.indexOf(user);
 
-  var currentSize = users.length;
+  let currentSize = users.length;
   users.splice(index, 1);
 
   if((currentSize - 1) == users.length)
@@ -58,11 +50,13 @@ router.deleteUser = (req, res) => {
 
 router.findUser = (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  var player = getUserById(users,req.params.id);
+  let player = getUserById(users,req.params.id);
 
   if (player != null)
     res.send(JSON.stringify(player,null,5));
   else
     res.send('User NOT Found!! Please Try Again');
 }
+
+
 module.exports = router;
