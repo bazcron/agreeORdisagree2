@@ -1,0 +1,533 @@
+PUT http://localhost:3000/statements/1/"agree"
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+###
+
+PUT http://localhost:3000/statements/1/"agree"
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+###
+
+PUT http://localhost:3000/statements/1/"agree"
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+###
+
+PUT http://localhost:3000/statements/1/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T062012.404.html
+
+###
+
+PUT http://localhost:3000/statements/1/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T062010.404.html
+
+###
+
+GET http://localhost:3000/statements/1/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T062005.404.html
+
+###
+
+GET http://localhost:3000/statements/1/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T061953.200.json
+
+###
+
+PUT http://localhost:3000/statements/1/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T061947.404.html
+
+###
+
+PUT http://localhost:3000/statements/1/agree
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T061931.404.html
+
+###
+
+PUT http://localhost:3000/statements/id/agree
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T061902-1.500.html
+
+###
+
+PUT http://localhost:3000/statements/id/agree
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T061902.500.html
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055921.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055920.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055917.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055908.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055829.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055825.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055822.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055813.200.json
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055749.500.html
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055748.500.html
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055541.500.html
+
+###
+
+DELETE http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055527.404.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055243.200.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055130.200.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T055103.200.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054915.200.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054913.200.html
+
+###
+
+GET http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054908.200.json
+
+###
+
+GET http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054804.200.json
+
+###
+
+GET http://localhost:3000/users/100000880
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054757.200.json
+
+###
+
+GET http://localhost:3000/users/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054707.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054636.200.html
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054630.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054622.200.html
+
+###
+
+GET http://localhost:3000/users/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054616.200.html
+
+###
+
+GET http://localhost:3000/users/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054613.200.html
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054555.200.json
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": 'Mary', "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054507.400.html
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+
+{"name": 'Mary', "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054034.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+
+{"name": 'Mary', "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T054021.200.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+
+{"name": 'Mary', "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T053915.200.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+
+{"name": 'Mary', "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T052844.200.html
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+
+{"name": 'Mary', "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T052633.200.html
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+
+{"name": 'Mary', "email": "maryc@yahoo.co.uk","password": "mary"}
+
+<> 2019-10-25T052625.200.json
+
+###
+
+PUT http://localhost:3000/statements/1/agree/
+Accept: */*
+Cache-Control: no-cache
+
+{"statement":"Elvis is Alive"}
+
+<> 2019-10-25T051359.404.html
+
+###
+
+DELETE http://localhost:3000/statements/6
+Accept: */*
+Cache-Control: no-cache
+
+{"statement":"Elvis is Alive"}
+
+<> 2019-10-25T051342.200.json
+
+###
+
+GET http://localhost:3000/statements/
+Accept: */*
+Cache-Control: no-cache
+
+{"statement":"Elvis is Alive"}
+
+<> 2019-10-25T051322.200.json
+
+###
+
+POST http://localhost:3000/statements/
+Accept: */*
+Cache-Control: no-cache
+
+{"statement":"Elvis is Alive"}
+
+<> 2019-10-25T051316.200.json
+
+###
+
+POST http://localhost:3000/statements/1/agree
+Accept: */*
+Cache-Control: no-cache
+
+{"statement":"Elvis is Alive"}
+
+<> 2019-10-25T051306.404.html
+
+###
+
