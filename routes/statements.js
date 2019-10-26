@@ -29,13 +29,21 @@ router.findOne = (req, res) => {
 
 router.addStatement = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-
-    let numberOfStatements = statements.length;
-    let id = numberOfStatements+1;   // add one to number of statements to give new statement the next id
-
+    //I needed any new statements id to follow on from the last id, (the highest number) even if statements were deleted,
+    //as i want to control the sequence of statements.
+    //So i first checked if length of statements was 0, (if there were no statements), if it was zero it meant that there
+    //were no statements, so i set the id to 1
+    let id=0;
+    if (statements.length ==0){
+        id=1;
+    }//else i took the last element of the array and added 1 to it.
+    else {
+        let numberOfStatements = statements[statements.length - 1];
+        id = numberOfStatements.id + 1;   // add one to number of statements to give new statement the next id
+    }
     statements.push({"id": id, "statement": req.body.statement, "agree": 0, "disagree": 0});
 
-    if((numberOfStatements + 1) == statements.length)
+    if(id > 0)
         res.json({ message: 'Statement has been successfully Added!'});
     else
         res.json({ message: 'Sorry unable to add Statement'});
