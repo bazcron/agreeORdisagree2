@@ -27,3 +27,7 @@ Post (add) a statement, this gives the new statement the next available id
 Put update the agree field if the user agrees with the statement
 Put update the disagree field if the user disagrees with the statement
 Delete a statement by id
+
+Get all users, returns all the users
+Post (add) a user with a unigue id
+Delete a user based on the id
