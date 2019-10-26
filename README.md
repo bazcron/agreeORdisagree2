@@ -37,3 +37,7 @@ Delete a user based on the id
 The data is currently persistent locally in a mongodb.
 
 I created a github repository and uploaded the initial project. i continued to push updates to github each time i added new code or updated code.
+
+
+References:
+https://tutors-design.netlify.com/talks/wit-wad-2-2019.netlify.com
