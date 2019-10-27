@@ -1,8 +1,20 @@
+let mongoose = require('mongoose');
 let statements = require('../models/statements');
 let express = require('express');
 let router = express.Router();
 
 
+mongoose.connect('mongodb://localhost:27017/agreeORdisagree');
+mongoose.connect(mongodbUri);
+let db = mongoose.connection;
+
+db.on('error', function (err) {
+    console.log('Unable to Connect to [ ' + db.name + ' ]', err);
+});
+
+db.once('open', function () {
+    console.log('Successfully Connected to [ ' + db.name + ' ]');
+});
 router.findAll = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(statements,null,5));
