@@ -23,20 +23,25 @@ statements holds, statement ID (Number), the actual statement (String), agree fi
 users holds users information including, name (String), email (String), password (String), agree (Number), disagree(Number).
 
 From the server side you can do the following:
-Get all statements
-Get one statement by id
-Post (add) a statement, this gives the new statement the next available id
-Put update the agree field if the user agrees with the statement
-Put update the disagree field if the user disagrees with the statement
-Delete a statement by id
+Get all statements.
+Get one statement by id.
+Post (add) a statement, this gives the new statement the next available id.
+Put update the agree field if the user agrees with the statement.
+Put update the disagree field if the user disagrees with the statement.
+Delete a statement by id.
 
-Get all users, returns all the users
-Post (add) a user with a unigue id
-Delete a user based on the id
+Get all users, returns all the users.
+Post (add) a user with a unigue id.
+Delete a user based on the id.
 
-The data is currently persistent locally in a mongodb.
+The database has online persistence using mongodb.atlas.
 
 I created a github repository and uploaded the initial project. i continued to push updates to github each time i added new code or updated code.
+
+I used comments where ever appropriate.
+
+
+
 
 
 References:
