@@ -1,3 +1,308 @@
+DELETE http://localhost:3000/statements/5db5c40e3a34a5174c2d46aa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T043453.200.json
+
+###
+
+GET http://localhost:3000/statements/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T043439.200.json
+
+###
+
+GET http://localhost:3000/statements/5db5c43c56bd241078321bce
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T043402.200.json
+
+###
+
+DELETE http://localhost:3000/statements/5db5c43c56bd241078321bce
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T043357.200.json
+
+###
+
+GET http://localhost:3000/statements/5db5c43c56bd241078321bce
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T043346.200.json
+
+###
+
+GET http://localhost:3000/statements/5db5c43c56bd241078321bce/agree
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T043341.404.html
+
+###
+
+PUT http://localhost:3000/statements/5db5c43c56bd241078321bce/agree
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T042936.200.json
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T042220.200.json
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+###
+
+GET http://localhost:3000/statements/5db5c28af0d2200e68c2313bdddd
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T042031.200.json
+
+###
+
+GET http://localhost:3000/statements/5db5c28af0d2200e68c2313b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T041959.200.json
+
+###
+
+GET http://localhost:3000/statements/5db5c28af0d2200e68c2313b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T041927.200.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+<> 2019-10-27T041850.200.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you quickly"}
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T035228.404.html
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T030442.200.json
+
+###
+
+GET http://localhost:3000/statements/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T030439.200.json
+
+###
+
+DELETE http://localhost:3000/statements/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T030434.200.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T030402.200.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T030341.200.json
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T025832.500.json
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T025802.500.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T025750.200.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "Speeding Kills you"}
+
+<> 2019-10-27T025747.200.json
+
+###
+
 GET http://localhost:3000/statements
 Accept: */*
 Cache-Control: no-cache
@@ -226,325 +531,6 @@ Content-Type: application/json
 {"statement": "Speeding Kills you"}
 
 <> 2019-10-27T023228.200.json
-
-###
-
-GET http://localhost:3000/statements/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T023224.200.json
-
-###
-
-GET http://localhost:3000/statements/3
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T023221.200.json
-
-###
-
-DELETE http://localhost:3000/statements/3
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T023214.200.json
-
-###
-
-DELETE http://localhost:3000/statements/2
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T023212.200.json
-
-###
-
-DELETE http://localhost:3000/statements/1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T023209.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022803.200.json
-
-###
-
-GET http://localhost:3000/statements/2
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022759.200.json
-
-###
-
-DELETE http://localhost:3000/statements/2
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022751.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022733.200.json
-
-###
-
-GET http://localhost:3000/statements/4
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022730.200.json
-
-###
-
-DELETE http://localhost:3000/statements/4
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022725.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022700.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022659.200.json
-
-###
-
-GET http://localhost:3000/statements/5
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022653.200.json
-
-###
-
-DELETE http://localhost:3000/statements/5
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022648.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022634.200.json
-
-###
-
-POST http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022629.200.json
-
-###
-
-POST http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022441.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T022429.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T021530.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-27T021427.404.html
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-26T045934.200.json
-
-###
-
-POST http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-26T045929.200.json
-
-###
-
-DELETE http://localhost:3000/statements/1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-26T045920.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-26T045911.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-26T045445.200.json
-
-###
-
-POST http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-26T045439.200.json
-
-###
-
-GET http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-26T045433.200.json
-
-###
-
-POST http://localhost:3000/statements
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"statement": "Speeding Kills you"}
-
-<> 2019-10-26T045426.200.json
 
 ###
 

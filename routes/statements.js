@@ -3,8 +3,8 @@ let statements = require('../models/statements');
 let express = require('express');
 let router = express.Router();
 
-
-mongoose.connect('mongodb://localhost:27017/agreeORdisagree');
+let mongodbUri = 'mongodb+srv://barry:hobbit00@cluster0-58mmj.mongodb.net/agreeORdisagree?retryWrites=true&w=majority';
+//mongoose.connect('mongodb://localhost:27017/agreeORdisagree');
 mongoose.connect(mongodbUri);
 let db = mongoose.connection;
 
@@ -15,11 +15,23 @@ db.on('error', function (err) {
 db.once('open', function () {
     console.log('Successfully Connected to [ ' + db.name + ' ]');
 });
-router.findAll = (req, res) => {
+/*router.findAll = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(statements,null,5));
     // Return a JSON representation of our list
     res.json(statements);
+}*/
+
+router.findAll = (req, res) => {
+    // Return a JSON representation of our list
+    res.setHeader('Content-Type', 'application/json');
+
+    statements.find(function(err, statements) {
+        if (err)
+            res.send(err);
+
+        res.send(JSON.stringify(statements,null,5));
+    });
 }
 
 function getByValue(array, id) {
@@ -27,7 +39,7 @@ function getByValue(array, id) {
     return result ? result[0] : null; // or undefined
 }
 
-router.findOne = (req, res) => {
+/*router.findOne = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
 
@@ -37,9 +49,21 @@ router.findOne = (req, res) => {
         res.send(JSON.stringify(statement,null,5));
     else
         res.send('That Statement is not here');
+}*/
+
+router.findOne = (req, res) => {
+
+    res.setHeader('Content-Type', 'application/json');
+
+    statements.find({ "_id" : req.params.id },function(err, statement) {
+        if (err)
+            res.json({ message: 'Statement NOT Found!', errmsg : err } );
+        else
+            res.send(JSON.stringify(statement,null,5));
+    });
 }
 
-router.addStatement = (req, res) => {
+/*router.addStatement = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     //I needed any new statements id to follow on from the last id, (the highest number) even if statements were deleted,
     //as i want to control the sequence of statements.
@@ -59,20 +83,43 @@ router.addStatement = (req, res) => {
         res.json({ message: 'Statement has been successfully Added!'});
     else
         res.json({ message: 'Sorry unable to add Statement'});
+}*/
+
+router.addStatement = (req, res) => {
+
+    res.setHeader('Content-Type', 'application/json');
+
+    let statement = new statements();
+
+    statement.statement = req.body.statement;
+    statement.agree = 0;
+    statement.disagree = 0;
+
+    statement.save(function(err) {
+        if (err)
+            res.json({ message: 'Statement NOT Added!', errmsg : err } );
+        else
+            res.json({ message: 'Statement Successfully Added!', data: statement });
+    });
 }
 
 router.agreedWithStatement = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     // Find the relevant statement based on the id passed in
     // Add 1 to agree
-    let statement = getByValue(statements,req.params.id);
-
-    if (statement != null) {
-        statement.agree =1;
-        res.json({status : 200, message : 'Successfully Agreed' , "Statement Updated" : statement });
-    }
-    else
-        res.send('Error please try again!!');
+    statements.findById(req.params.id, function(err,statement) {
+        if (err)
+            res.json({ message: 'Error that ID is not valid. Please try again!', errmsg : err } );
+        else {
+            statement.agree =1;
+            statement.save(function (err) {
+                if (err)
+                    res.json({ message: 'Unable to change Agree Value: Please try again!', errmsg : err } );
+                else
+                    res.json({ message: 'You have Agreed with this statement!', data: statement });
+            });
+        }
+    });
 }
 
 
@@ -80,29 +127,31 @@ router.disagreeWithStatement = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     // Find the relevant statement based on the id passed in
     // Add 1 to disagree
-    let statement = getByValue(statements,req.params.id);
-
-    if (statement != null) {
-        statement.disagree = 1;
-        res.json({status : 200, message : 'Successfully Disagreed' , "Statement Updated" : statement });
-    }
-    else
-        res.send('Error please try again!!');
+    statements.findById(req.params.id, function(err,statement) {
+        if (err)
+            res.json({ message: 'Error that ID is not valid. Please try again!', errmsg : err } );
+        else {
+            statement.disagree =1;
+            statement.save(function (err) {
+                if (err)
+                    res.json({ message: 'Unable to change Disagree Value: Please try again!', errmsg : err } );
+                else
+                    res.json({ message: 'You have Disagreed with this statement!', data: statement });
+            });
+        }
+    });
 }
 
 router.deleteStatement = (req, res) => {
     //Delete the selected statement based on its id.
-    let statement = getByValue(statements,req.params.id);
-    let index = statements.indexOf(statement);
-
-    let currentSize = statements.length;
-    statements.splice(index, 1);
-
-    if((currentSize - 1) == statements.length)
-        res.json({ message: 'Statement Deleted!'});
-    else
-        res.json({ message: 'Sorry Statement Deletion was not possible!'});
+    statements.findByIdAndRemove(req.params.id, function(err) {
+        if (err)
+            res.json({ message: 'Sorry That ID was not valid: Statement Deletion was not possible!', errmsg : err } );
+        else
+            res.json({ message: 'Statement Deleted!'});
+    });
 }
+
 
 
 module.exports = router;
