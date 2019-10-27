@@ -1,7 +1,20 @@
+let mongoose = require('mongoose');
 let users = require('../models/users');
 let express = require('express');
 let router = express.Router();
 
+let mongodbUri = 'mongodb+srv://barry:hobbit00@cluster0-58mmj.mongodb.net/agreeORdisagree?retryWrites=true&w=majority';
+
+mongoose.connect(mongodbUri);
+let db = mongoose.connection;
+
+db.on('error', function (err) {
+  console.log('Unable to Connect to [ ' + db.name + ' ]', err);
+});
+
+db.once('open', function () {
+  console.log('Successfully Connected to [ ' + db.name + ' ]');
+});
 
 function getByValue(array, id) {
   let result = array.filter(function (obj) {return obj.id == id;});
@@ -14,49 +27,88 @@ function getUserById(array, id) {
 }
 
 router.addUser = (req, res) => {
-  res.setHeader('Content-Type', 'application/json');
+  //res.setHeader('Content-Type', 'application/json');
   //Add a new User
-  let id = Math.floor((Math.random() * 1000000) + 1); //Randomly generate an id
-  let numberOfUsers = users.length;
-
-  users.push({"id" : id, "name": req.body.name, "email": req.body.email, "password": req.body.password, agree:0, disagree:0});
-
-  if((numberOfUsers + 1) == users.length)
-    res.json({ message: 'User Added Successfully!'});
-  else
-    res.json({ message: 'Unable to Add User. Sorry! Please try again.'});
+  let user = new users();
+  user.name = req.body.name;
+  user.email = req.body.email;
+  user.password = req.body.password;
+  user.agree = 0;
+  user.disagree = 0;
+  user.save(function(err) {
+    if (err)
+      res.json({ message: 'Unable to Add User. Sorry! Please try again.', errmsg : err } );
+    else
+      res.json({ message: 'User Added Successfully!', data: users });
+  });
 }
+
 
 router.findAllUsers = (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.send(JSON.stringify(users,null,5));
-  // Return a JSON representation of our list
-  res.json(users);
+  users.find(function(err, users) {
+    if (err)
+      res.send(err);
+
+    res.send(JSON.stringify(users,null,5));
+  });
 }
 
 router.deleteUser = (req, res) => {
   //Delete the selected user based on its id
-  let user = getByValue(users,req.params.id);
-  let index = users.indexOf(user);
-
-  let currentSize = users.length;
-  users.splice(index, 1);
-
-  if((currentSize - 1) == users.length)
-    res.json({ message: 'User Deleted!'});
-  else
-    res.json({ message: 'Sorry that User ID is not on our system!'});
+  users.findByIdAndRemove(req.params.id, function(err) {
+    if (err)
+      res.json({ message: 'Sorry that User ID is not on our system!', errmsg : err } );
+    else
+      res.json({ message: 'User Deleted!'});
+  });
 }
+
 
 router.findUser = (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  let player = getUserById(users,req.params.id);
-
-  if (player != null)
-    res.send(JSON.stringify(player,null,5));
-  else
-    res.send('User NOT Found!! Please Try Again');
+  users.find({ "_id" : req.params.id },function(err, user) {
+    if (err)
+      res.json({ message: 'User NOT Found!! Please Try Again', errmsg : err } );
+    else
+      res.send(JSON.stringify(user,null,5));
+  });
+}
+router.agreedWithStatement = (req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  // Find the relevant statement based on the id passed in
+  // Add 1 to agree
+  users.findById(req.params.id, function(err,user) {
+    if (err)
+      res.json({ message: 'Error that ID is not valid. Please try again!', errmsg : err } );
+    else {
+      user.agree =1;
+      user.save(function (err) {
+        if (err)
+          res.json({ message: 'Unable to add 1 to Agree Value: Please try again!', errmsg : err } );
+        else
+          res.json({ message: 'You have Agreed with this statement. Agreed has been increased by 1!', data: user });
+      });
+    }
+  });
 }
 
-
+router.disagreeWithStatement = (req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  // Find the relevant statement based on the id passed in
+  // Add 1 to disagree
+  users.findById(req.params.id, function(err,user) {
+    if (err)
+      res.json({ message: 'Error that ID is not valid. Please try again!', errmsg : err } );
+    else {
+      user.disagree =1;
+      user.save(function (err) {
+        if (err)
+          res.json({ message: 'Unable to add 1 to Disagree Value: Please try again!', errmsg : err } );
+        else
+          res.json({ message: 'You have Disagreed with this statement. Disagree has increased by 1!', data: user });
+      });
+    }
+  });
+}
 module.exports = router;

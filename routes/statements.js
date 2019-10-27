@@ -111,7 +111,7 @@ router.agreedWithStatement = (req, res) => {
         if (err)
             res.json({ message: 'Error that ID is not valid. Please try again!', errmsg : err } );
         else {
-            statement.agree =1;
+            statement.agree +=1;
             statement.save(function (err) {
                 if (err)
                     res.json({ message: 'Unable to change Agree Value: Please try again!', errmsg : err } );
@@ -131,7 +131,7 @@ router.disagreeWithStatement = (req, res) => {
         if (err)
             res.json({ message: 'Error that ID is not valid. Please try again!', errmsg : err } );
         else {
-            statement.disagree =1;
+            statement.disagree +=1;
             statement.save(function (err) {
                 if (err)
                     res.json({ message: 'Unable to change Disagree Value: Please try again!', errmsg : err } );
