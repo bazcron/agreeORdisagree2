@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fead50cf-6762-404e-8ace-fa2aec1b26f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/statements.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/statements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readMe" beforeDir="false" afterPath="$PROJECT_DIR$/readMe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +21,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response143.json" root0="SKIP_INSPECTION" />
-  </component>
   <component name="ProjectId" id="1S6OS80Ryl3pdTZd6qnyy38ZToZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -35,7 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../donationsAPIWithTests" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -1361,7 +1354,8 @@
       <workItem from="1572185550944" duration="5755000" />
       <workItem from="1572191353429" duration="132000" />
       <workItem from="1572191517644" duration="101000" />
-      <workItem from="1572192616516" duration="5612000" />
+      <workItem from="1572192616516" duration="6223000" />
+      <workItem from="1572456094116" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1572087697544</created>
@@ -1412,7 +1406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572194179721</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="model users has online persistence using MongoDB.Atlas">
+      <created>1572198319998</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572198319998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1442,6 +1443,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="added mongodb and mongoose to node modules" />
     <MESSAGE value="Changed statement method to work with deployed Mongodb Atlas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed statement method to work with deployed Mongodb Atlas" />
+    <MESSAGE value="model users has online persistence using MongoDB.Atlas" />
+    <option name="LAST_COMMIT_MESSAGE" value="model users has online persistence using MongoDB.Atlas" />
   </component>
 </project>
