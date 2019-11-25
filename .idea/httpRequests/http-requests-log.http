@@ -1,3 +1,223 @@
+GET http://localhost:3000/users/5dca7f6a27a5081a7c3b3cf2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "mary", "email": "mary@yahoo.co.uk","password": "pass"}
+
+<> 2019-11-12T100955.200.json
+
+###
+
+GET http://localhost:3000/users/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "mary", "email": "mary@yahoo.co.uk","password": "pass"}
+
+<> 2019-11-12T100915.200.json
+
+###
+
+PUT http://localhost:3000/users/5dca7ef727a5081a7c3b3cf1/agree
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "mary", "email": "mary@yahoo.co.uk","password": "pass"}
+
+<> 2019-11-12T095414.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "mary", "email": "mary@yahoo.co.uk","password": "pass"}
+
+<> 2019-11-12T095313.200.json
+
+###
+
+GET http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "mary", "email": "mary@yahoo.co.uk","password": "pass"}
+
+<> 2019-11-12T095310.404.html
+
+###
+
+GET http://localhost:3000/user/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "mary", "email": "mary@yahoo.co.uk","password": "pass"}
+
+<> 2019-11-12T095305.404.html
+
+###
+
+PUT http://localhost:3000/user/5dca7fc527a5081a7c3b3cf3/agree
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "mary", "email": "mary@yahoo.co.uk","password": "pass"}
+
+<> 2019-11-12T095255.404.html
+
+###
+
+PUT http://localhost:3000/user/5dca7fc527a5081a7c3b3cf3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "mary", "email": "mary@yahoo.co.uk","password": "pass"}
+
+<> 2019-11-12T095207.404.html
+
+###
+
+PUT http://localhost:3000/statement/5dca7fc527a5081a7c3b3cf3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "There is a Frog", "agree": 1,"disagree": 0}
+
+<> 2019-11-12T095133.404.html
+
+###
+
+PUT http://localhost:3000/statements/5dca7fc527a5081a7c3b3cf3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "There is a Frog", "agree": 1,"disagree": 0}
+
+<> 2019-11-12T095041.404.html
+
+###
+
+GET http://localhost:3000/statements/5dca7fc527a5081a7c3b3cf3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "There is a Frog", "agree": 1,"disagree": 0}
+
+<> 2019-11-12T095025.200.json
+
+###
+
+GET http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "There is a Frog", "agree": 1,"disagree": 0}
+
+<> 2019-11-12T094917.200.json
+
+###
+
+PUT http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "There is a Frog", "agree": 1,"disagree": 0}
+
+<> 2019-11-12T094824.404.html
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "There is a Frog", "agree": 0,"disagree": 0}
+
+<> 2019-11-12T094804.200.json
+
+###
+
+POST http://localhost:3000/statements
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"statement": "There is a God", "agree": 0,"disagree": 0}
+
+<> 2019-11-12T094749.200.json
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "mary", "email": "mary@yahoo.co.uk","password": "mary"}
+
+<> 2019-11-12T094618.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "barry", "email": "barry@yahoo.co.uk","password": "barry"}
+
+<> 2019-11-12T094431.200.json
+
+###
+
+POST http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "barry", "email": "barry@yahoo.co.uk","password": "barry"}
+
+<> 2019-11-12T094423.200.json
+
+###
+
+GET http://localhost:3000/users
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "barry", "email": "barry@yahoo.co.uk","password": "barry"}
+
+<> 2019-11-12T094353.200.json
+
+###
+
+GET http://localhost:3000/users/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name": "barry", "email": "barry@yahoo.co.uk","password": "barry"}
+
+<> 2019-11-12T094349.200.json
+
+###
+
 PUT http://localhost:3000/users/5db5d5c62ff30f11489ddab1/agree
 Accept: */*
 Cache-Control: no-cache
@@ -323,226 +543,6 @@ Content-Type: application/json
 {"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
 
 <> 2019-10-27T051938.200.json
-
-###
-
-PUT http://localhost:3000/users/5db5cfc405eaf510f4317adc/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T051921.404.html
-
-###
-
-GET http://localhost:3000/users/5db5cfc405eaf510f4317adc
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T051250.200.json
-
-###
-
-PUT http://localhost:3000/users/5db5cfc405eaf510f4317adc/agree
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T051236.404.html
-
-###
-
-GET http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T051216.200.json
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T051132.200.json
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T051020.500.html
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T051000.500.json
-
-###
-
-POST http://localhost:3000/Users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T050937.500.json
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T050918.500.json
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T050531.500.json
-
-###
-
-POST http://localhost:3000/users/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T050526.500.json
-
-###
-
-POST http://localhost:3000/users/1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T050521.404.html
-
-###
-
-DELETE http://localhost:3000/users/1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T050406.200.json
-
-###
-
-GET http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T050359.200.json
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T045425.500.json
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T045047.500.json
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T045018.500.json
-
-###
-
-POST http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T045013.404.html
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T045004.500.json
-
-###
-
-POST http://localhost:3000/users
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name": "Mary", "email": "maryc@yahoo.co.uk","password": "mary"}
-
-<> 2019-10-27T044643.500.json
 
 ###
 
