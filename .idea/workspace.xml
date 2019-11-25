@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fead50cf-6762-404e-8ace-fa2aec1b26f0" name="Default Changelist" comment="initial commit" />
+    <list default="true" id="fead50cf-6762-404e-8ace-fa2aec1b26f0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1360,7 +1360,7 @@
       <workItem from="1573551734898" duration="2227000" />
       <workItem from="1573555780190" duration="23000" />
       <workItem from="1574674601357" duration="421000" />
-      <workItem from="1574675146002" duration="630000" />
+      <workItem from="1574675146002" duration="971000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1572087697544</created>
@@ -1453,7 +1453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574675469325</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="initial commit">
+      <created>1574675799442</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574675799442</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1484,6 +1491,7 @@
     <MESSAGE value="added mongodb and mongoose to node modules" />
     <MESSAGE value="Changed statement method to work with deployed Mongodb Atlas" />
     <MESSAGE value="model users has online persistence using MongoDB.Atlas" />
-    <option name="LAST_COMMIT_MESSAGE" value="model users has online persistence using MongoDB.Atlas" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
