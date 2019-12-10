@@ -12,6 +12,7 @@ let mongoose = require('mongoose');
 //schema
 let statementSchema = new mongoose.Schema({
         id: Number,
+		statementID: Number,
         statement: String,
         agree: Number,
         disagree:Number

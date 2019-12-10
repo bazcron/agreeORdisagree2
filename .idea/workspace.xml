@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fead50cf-6762-404e-8ace-fa2aec1b26f0" name="Default Changelist" comment="Testing Repository">
+    <list default="true" id="fead50cf-6762-404e-8ace-fa2aec1b26f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/statements.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/statements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/statements.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/statements.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1363,7 +1367,13 @@
       <workItem from="1573551734898" duration="2227000" />
       <workItem from="1573555780190" duration="23000" />
       <workItem from="1574674601357" duration="421000" />
-      <workItem from="1574675146002" duration="2272000" />
+      <workItem from="1574675146002" duration="3051000" />
+      <workItem from="1575543818044" duration="38000" />
+      <workItem from="1575975248024" duration="637000" />
+      <workItem from="1575978808916" duration="2225000" />
+      <workItem from="1575993069861" duration="1113000" />
+      <workItem from="1575997958869" duration="1288000" />
+      <workItem from="1576008251719" duration="2731000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1572087697544</created>
@@ -1498,7 +1508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574677373335</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Testing Repository">
+      <created>1574677440701</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574677440701</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1530,6 +1547,7 @@
     <MESSAGE value="Changed statement method to work with deployed Mongodb Atlas" />
     <MESSAGE value="model users has online persistence using MongoDB.Atlas" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Testing Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing Repository" />
   </component>
 </project>

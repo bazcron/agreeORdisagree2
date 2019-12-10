@@ -92,8 +92,8 @@ router.addStatement = (req, res) => {
     let statement = new statements();
 
     statement.statement = req.body.statement;
-    statement.agree = 0;
-    statement.disagree = 0;
+    statement.agree =req.body.agree;
+    statement.disagree = req.body.disagree;
 
     statement.save(function(err) {
         if (err)
